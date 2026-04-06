@@ -18,23 +18,110 @@
       <tbody>
         <tr>
           <td>
-            <code> <span><</span><span>title>Ejemplo con errores</span> </code>
+            <pre style="margin: 0">
+              <code>
+                <span><</span><span>title>Ejemplo con errores</span>
+              </code>
+            </pre>
           </td>
           <td>
-            Falta la etiqueta de cierre <code> <span><</span>/title> </code>
+            Falta la etiqueta de cierre: <code> <span><</span>/title> </code>
           </td>
         </tr>
         <tr>
           <td>
-            <code>
-              <span><</span>p>Este párrafo tiene una etiqueta <span><</span>span
-              style="color: red"> sin cerrar correctamente.
-            </code>
+            <pre>
+              <code>
+                <span><</span>p>Este párrafo tiene una etiqueta <span><</span>span style="color: red">
+                sin cerrar correctamente.
+              </code>
+            </pre>
           </td>
           <td>
-            Faltan las etiquetas de cierre
+            Faltan las siguientes etiquetas de cierre:
             <code><span><</span>/p></code>
             y <code><span><</span>/span></code>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <pre>
+              <code>
+                <span><</span>img src="imagenes/logo.png" alt=Logo HTML width="200">
+              </code>
+            </pre>
+          </td>
+          <td>
+            El atributo <code>alt</code> debe recibir una cadena de caracteres,
+            por lo que debería ser: <code>alt="Logo HTML"</code>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <pre>
+              <code>
+                <span><</span>a href="https://www.google.com" target="blank">Ir a Google<span><</span>/a>
+              </code>
+            </pre>
+          </td>
+          <td>
+            Para que el enlace sea abierto en una nueva pestaña, debe
+            escribirse:
+            <code>target="_blank"</code>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <pre style="margin: 0">
+              <code>
+                <span><</span>ul>
+                  <span><</span>li>Elemento 1
+                  <span><</span>li>Elemento 2
+                  <span><</span>li>Elemento 3
+                <span><</span>/ol>
+              </code>
+            </pre>
+          </td>
+          <td>
+            Cada elemento de la lista no posee su etiqueta de cierre:
+            <code><span><</span>/li></code>. Además, la etiqueta de cierre
+            correcta para una lista desordenada es:
+            <code><span><</span>/ul></code>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <pre style="margin: 0">
+              <code>
+                <span><</span>tr>
+                  <span><</span>th>Nombre<<span>/th></span>
+                  <span><</span>th>Edad<<span>/th></span>
+              </code>
+            </pre>
+          </td>
+          <td>
+            Falta la etiqueta de cierre de la fila:
+            <code><span><</span>/tr></code>. Además, al ser la fila del
+            encabezado de la tabla, este fragemento debe estar dentro de las
+            etiquetas <code><span><</span>thead></code> y
+            <code><span><</span>/thead></code>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <pre style="margin: 0">
+              <code>
+                <span><</span>tr>
+                  <span><</span>td>Juan<<span>/td></span>
+                  <span><</span>td>30<<span>/td></span>
+                <span><</span>/tr>
+              </code>
+            </pre>
+          </td>
+          <td>
+            Al ser una fila de datos de la tabla, debe estar contenida dentro de
+            las etiquetas <code><span><</span>tbody></code> y
+            <code><span><</span>/tbody></code>
           </td>
         </tr>
       </tbody>
