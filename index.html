@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 8</title>
+  </head>
+  <body>
+    <h1>Detección de errores</h1>
+
+    <table style="border-collapse: collapse" border="1px">
+      <thead>
+        <tr>
+          <th>Fragmento de código</th>
+          <th>Error</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <code> <span><</span><span>title>Ejemplo con errores</span> </code>
+          </td>
+          <td>
+            Falta la etiqueta de cierre <code> <span><</span>/title> </code>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <code>
+              <span><</span>p>Este párrafo tiene una etiqueta <span><</span>span
+              style="color: red"> sin cerrar correctamente.
+            </code>
+          </td>
+          <td>
+            Faltan las etiquetas de cierre
+            <code><span><</span>/p></code>
+            y <code><span><</span>/span></code>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
