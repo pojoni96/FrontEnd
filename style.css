@@ -1,0 +1,13 @@
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 0 0 20px crimson;
+  background: linear-gradient(to right, white, lightblue, blue);
+}
+
+h1 {
+  width: max-content;
+  padding: 30px;
+}
