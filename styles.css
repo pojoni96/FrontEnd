@@ -1,0 +1,27 @@
+.caja {
+  padding: 50px;
+  width: 300px;
+  height: max-content;
+  border: 1px solid black;
+  margin: 50px 0;
+  text-align: center;
+}
+
+p {
+  height: max-content;
+  padding: 30px 0;
+  margin: 0;
+}
+
+.cajaContentBox {
+  box-sizing: content-box;
+}
+
+.cajaBorderBox {
+  box-sizing: border-box;
+}
+
+.cajaRespuesta {
+  background-color: lightgray;
+  border-radius: 10px;
+}
