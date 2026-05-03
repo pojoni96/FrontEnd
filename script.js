@@ -3,8 +3,8 @@
  * @param {number[]} lista
  */
 function imprimirConRetraso(lista) {
-  lista.forEach((num) => {
-    setTimeout(console.log(num), 1000);
+  lista.forEach((num, index) => {
+    setTimeout(() => console.log("Numero " + num), 1000 * index);
   });
 }
 
