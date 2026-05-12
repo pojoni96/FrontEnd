@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  height: 45px;
+  width: 45px;
+  border-radius: 10px;
+}
+
+p {
+  margin: auto 0;
+}
